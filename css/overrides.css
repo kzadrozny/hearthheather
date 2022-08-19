@@ -1,0 +1,53 @@
+body.sub-page #mainNav {
+  background-color: #677f54;
+}
+
+body.sub-page #mainNav .navbar-brand {
+  font-size: 1.5rem;
+  font-family: 'Bellefair', serif;
+  color: #fff7f0;
+  font-weight: 100;
+  line-height: 0;
+  margin-bottom: 0;
+}
+
+body.sub-page h1 {
+  color:  #000;
+  font-size: 2rem;
+  line-height: inherit;
+  font-weight: 600;
+}
+
+body.sub-page h2 {
+  font-size: 1.5rem;
+  font-weight: 100;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.btn-grn {
+  background-color: #677f54;
+  color: #ffffff;
+}
+
+.btn-grn:hover {
+  background-color: #ffdcbf;
+  color: #677f54;
+}
+
+.list-header {
+  display:  none!important;
+}
+
+.rec-read {
+  max-height: 315px;
+  margin-bottom: 1em;
+}
+
+.footer-links a {
+  color: white;
+}
+
+.footer-links a:hover, .footer-links a:focus {
+  color: #ffdcbf;
+  text-decoration: underline;
+}

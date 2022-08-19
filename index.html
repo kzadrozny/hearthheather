@@ -15,23 +15,7 @@
         <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
-        <style type="text/css">
-            @media (max-width: 992px) {
-                div.video-clip {
-                    display: none;
-                }
-            }
-
-            .btn-grn {
-              background-color: #677f54;
-              color: #ffffff;
-            }
-
-            .btn-grn:hover {
-              background-color: #ffdcbf;
-              color: #677f54;
-            }
-        </style>
+        <link href="css/overrides.css" rel="stylesheet" />
     </head>
     <body id="page-top">
         <!-- Navigation-->
@@ -57,9 +41,6 @@
         <header class="masthead">
             <div class="container">
                 <img src="images/Hearth+Heather_Logo-white.gif">
-                <!-- <div class="masthead-subheading">Welcome To Our Studio!</div>
-                <div class="masthead-heading">It's Nice To Meet You</div> -->
-               <!--  <a class="btn btn-primary btn-xl js-scroll-trigger" href="#episodes">Recent Episode</a> -->
             </div>
         </header>
 
@@ -100,43 +81,54 @@
                 </div>
             <hr>
 
-                <div class="container">
-                    <div class="text-center">
-                        <a href="episodes.html" class="btn btn-grn btn-xl">All episodes >></a>
-                    </div>
+            <div class="container">
+                <div class="text-center">
+                    <a href="episodes.html" class="btn btn-grn btn-xl">All episodes >></a>
                 </div>
+            </div>
 
 
         </section>
 
         <!-- Listen -->
         <section class="page-section bg-dark" id="listen">
-            <div class="container">
-                <div class="text-center">
-                    <h2 class="section-heading">Listen on</h2>
-                </div>
-                <div class="row">
-                    <div class="col-sm-4 text-center">
-                        <a href="https://podcasts.apple.com/us/podcast/hearth-heather/id1559991021"><i class="fas fa-podcast"></i> iTunes</a>
+            <div class="row">
+                <div class="container">
+                    <div class="text-center">
+                        <h2 class="section-heading">Listen on</h2>
                     </div>
-                    <div class="col-sm-4 text-center">
-                        <a href="https://open.spotify.com/show/5gvpwXjqN6uvI5882FuNZk"><i class="fab fa-spotify"></i> Spotify</a>
-                    </div>
-                    <div class="col-sm-4 text-center">
-                        <a href="https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkcy5idXp6c3Byb3V0LmNvbS8xNzE1MDU3LnJzcw"><i class="fab fa-google" aria-hidden="true"></i> Google Podcasts</a>
+                    <div class="row">
+                        <div class="col-sm-4 text-center">
+                            <a href="https://podcasts.apple.com/us/podcast/hearth-heather/id1559991021"><i class="fas fa-podcast"></i> iTunes</a>
+                        </div>
+                        <div class="col-sm-4 text-center">
+                            <a href="https://open.spotify.com/show/5gvpwXjqN6uvI5882FuNZk"><i class="fab fa-spotify"></i> Spotify</a>
+                        </div>
+                        <div class="col-sm-4 text-center">
+                            <a href="https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkcy5idXp6c3Byb3V0LmNvbS8xNzE1MDU3LnJzcw"><i class="fab fa-google" aria-hidden="true"></i> Google Podcasts</a>
+                        </div>
                     </div>
                 </div>
             </div>
 
-            <div class="container video-clip" style="padding-top: 2em;">
-                <hr>
-                <div class="text-center">
-                    <h2 class="section-heading">Preview Clip</h2>
+            <div class="row d-none d-sm-none d-md-block">
+                <div class="col-sm-12 text-center"> 
+                    <hr style="margin: 2.5em 0;">
                 </div>
-                <div class="col-xs-12 text-center">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/yDoPeSsy-kU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                </div>
-            </div>
+
+                <div class="row no-gutters">
+                        <div class="col-md-6 text-center">                  
+                            <h2>Recommended Reads</h2>
+                            <img class="img-fluid mx-auto d-block rec-read" src="images/Wintering.jpg">
+                            <a href="https://bookshop.org/lists/hearth-heather-book-list" class="btn btn-grn">View list on Bookshop.org >></a>
+                        </div>
+
+                        <div class="col-md-6 video-clip text-center"> 
+                            <h2>Preview Clip</h2>
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/yDoPeSsy-kU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div> <!-- end video clip -->
+                </div> <!-- end row -->
+
         </section>
         
         <!-- About -->
@@ -169,10 +161,9 @@
         
         <!-- Footer-->
         <footer class="footer py-4">
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-lg-4 text-lg-left">Copyright © Hearth &amp; Heather 2020-2022</div>
-                </div>
+            <div class="container footer-links">
+                <p><a href="disclaimer.html">Disclaimer</a> | <a href="terms.html">Terms of Service</a> | <a href="privacy.html">Privacy Policy</a></p>
+                <p>Copyright © Hearth &amp; Heather 2020-2022</p>
             </div>
         </footer>
        
