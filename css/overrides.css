@@ -24,6 +24,10 @@ body.sub-page h2 {
   font-family: 'Montserrat', sans-serif;
 }
 
+a {
+  text-decoration: underline;
+}
+
 .btn-grn {
   background-color: #677f54;
   color: #ffffff;
