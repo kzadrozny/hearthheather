@@ -24,7 +24,7 @@ body.sub-page h2 {
   font-family: 'Montserrat', sans-serif;
 }
 
-section a {
+section a:not(.btn) {
   text-decoration: underline;
 }
 
